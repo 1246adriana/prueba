@@ -1,0 +1,54 @@
+﻿
+﻿
+
+​<!DOCTYPE html>
+<html lang="en"  class="no-js"> 
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ 
+  <title>My AngularJS first App</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body ng-app="myApp">
+<ul>
+  <li>
+    <a href="#!/">Vista 1</a>
+  </li>
+  <li>
+    <a href="#!/dos">Vista 2</a>
+  </li>
+  <li>
+    <a href="#!/tres">Vista 3</a>
+  </li>
+  <li>
+    <a href="#!/weather">The Weather test</a>
+  </li>
+  <li>
+    <a href="#!/inventario/0">nueva tarea</a>
+  </li>
+</ul>
+<div ng-view >
+    
+</div>
+
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+
+  <script src="./angular16/angular.min.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.0/angular-route.js"></script>
+  
+<!-- Angular components  -->
+
+<!-- declaracion de modulos  -->
+<script  src="./app2.js"></script>
+<script  src="./services/tareaService.js"></script>
+<script  src="./components/tarea.js"></script>
+<script  src="./controllers/controlador1.js"></script>
+<script  src="./controllers/controlador2.js"></script>
+<script  src="./controllers/controlador3.js"></script>
+<script  src="./controllers/inventarioController.js"></script>
+<script  src="./controllers/theWeather.js"></script>
+
+</body>
+</html>

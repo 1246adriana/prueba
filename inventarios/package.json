@@ -1,0 +1,20 @@
+{
+  "name": "inventario",
+  "version": "1.0.0",
+  "description": "prueba",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "practica"
+  ],
+  "author": "adriana",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "",
+    "mongo": "",
+    "mongoose": ""
+  }
+}

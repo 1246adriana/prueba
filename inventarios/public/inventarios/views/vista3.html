@@ -1,0 +1,41 @@
+
+<h3>productos</h3>
+
+<!--
+<div ng-repeat="tarea in ctl.tareas">
+  <ng-tarea></ng-tarea>
+</div>
+
+<br>
+-->
+<link rel="stylesheet" href="./css/bootstrap.css">
+
+
+<div class="table-responsive">
+  <table class="table">
+      <thead class="thead-dark">
+        <tr>
+          <th scope="col">nombre</th>
+          <th scope="col">lote</th>
+          <th scope="col">fecha de entrada</th>
+          <th scope="col">cantidad</th>
+          <th scope="col">descripcion</th>
+        </tr>
+      </thead>
+            <tbody>
+            <tr ng-repeat="i in ctl.inventarios">
+              <td><a href="#!/inventario/{{i._id}}" >{{i.nombreProducto}}</a> </td>
+              <td>{{i.lote}}</td>
+              <td>{{i.fechaEntrada}}</td>
+              <td>{{i.cantidad}}</td>
+              <td>{{i.descripcion}}</td>
+               
+
+              <td>
+                 
+              </td>
+            </tr>
+            </tbody>
+  </table>
+</div>
+      
